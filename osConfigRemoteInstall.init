@@ -1,0 +1,12 @@
+#! /bin/bash
+
+sudo apt-get update
+curl -sSL https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add
+sudo apt-add-repository https://packages.microsoft.com/ubuntu/20.04/prod
+sudo apt-get update
+sudo apt install -y aziot-identity-service
+sudo aziotctl config mp --connection-string demo_connection_string --force
+sudo aziotctl config apply
+sudo apt-get -y install osconfig
+sleep 5
+sudo systemctl restart osconfig
