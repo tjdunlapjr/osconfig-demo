@@ -1,3 +1,3 @@
 # osconfig-demo
 
-This is the initial commit.
+This is the initial commit. More to come soon!
