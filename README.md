@@ -2,7 +2,7 @@
 
 This script and the associated .init file will allow you manage numerous remotely deployed Linux boxes leveraging Microsoft's Azure Cloud service and their open-source tool, [OSConfig](https://github.com/Azure/azure-osconfig).
 
-Designed to manage IoT devices at-scale, I demonstrate in this [YouTube video](https://youtu.be/AmADAGwjgQs) how OSConfig can be applied beyond simple configuration settings for IoT devices.
+Designed to manage IoT devices at-scale, I demonstrate in this [YouTube video](https://www.youtube.com/playlist?list=PLiXHQdAPCxK0_t6La80SySMlRJBeV6CaQ) how OSConfig can be applied beyond simple configuration settings for IoT devices.
 
 ## Getting Started
 
